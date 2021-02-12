@@ -1,0 +1,45 @@
+@import "variables";
+
+/* POSTS */
+
+.post-intro{
+    margin: 80px 0px;
+
+    .category-post-title{
+        color: $grey;
+        font-size: 16px;
+    }
+
+    .post-title{
+        font-size: 48px;
+        padding-top: 30px;
+    }
+
+    .list-inline{
+        padding-top: 30px;
+        color: $grey;
+    }
+}
+
+.post-body{
+    margin: 50px 0px;
+
+    p{
+        margin: 50px 0px;
+    }
+
+    blockquote {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: justify;
+    }
+
+    .tag-link{
+        color: $grey;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
