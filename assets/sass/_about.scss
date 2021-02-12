@@ -1,0 +1,26 @@
+@import "variables";
+
+
+
+.about{
+    margin-top: 100px;
+
+    h1{
+        font-size: 48px;
+    }
+
+    p{
+        color: $grey;
+        font: {
+            family: $paragraph;
+            size: 19px;
+            weight: 500;
+        }
+
+        line-height: 35px;
+    }
+
+    button{
+        margin-top: 30px;
+    }
+}

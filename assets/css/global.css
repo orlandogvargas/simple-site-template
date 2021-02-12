@@ -1,0 +1,245 @@
+/* GLOBAL STYLES */
+/* styles */
+/* FONTS */
+/* COLORS */
+/* global styles */
+section {
+  margin: 0 auto;
+  width: 85%; }
+
+/* variables */
+/* FONTS */
+/* COLORS */
+/* Typography */
+/* TYPOGRAPHY */
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #000; }
+
+h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  color: #000; }
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #000; }
+
+h4 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #000; }
+
+h5 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000; }
+
+/* navbar */
+/* FONTS */
+/* COLORS */
+.menu {
+  padding: 25px 0px;
+  font-family: "Lato", sans-serif; }
+  .menu .logo-site {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 10px; }
+  .menu .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 40px;
+    letter-spacing: 5px; }
+
+/* footer */
+/* FOOTER */
+footer {
+  background-color: #FAFAFA;
+  padding: 30px 0px;
+  margin-top: 200px; }
+  footer h1 {
+    font-size: 48px; }
+  footer ul li {
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 0px; }
+
+/* index */
+/* FONTS */
+/* COLORS */
+/* index */
+.intro-index {
+  margin: 150px 0px;
+  padding: 0px 16px; }
+  .intro-index h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+    line-height: 1.3; }
+
+.intro-photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 250px 0px; }
+
+.resumen {
+  margin: 160px 0px;
+  font-family: "Lato", sans-serif; }
+  .resumen h3 {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.66; }
+  .resumen p {
+    font-size: 19px;
+    color: #565656;
+    line-height: 1.66; }
+
+/* LATEST POSTS */
+.latest-posts .post-media {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0px; }
+.latest-posts .post-category {
+  color: #565656;
+  line-height: 80px; }
+.latest-posts h3 {
+  color: #000;
+  padding-bottom: 20px; }
+  .latest-posts h3 a {
+    text-decoration: none;
+    color: #000; }
+    .latest-posts h3 a:hover {
+      text-decoration: underline; }
+.latest-posts p {
+  color: #565656;
+  height: 100px; }
+.latest-posts .read-post {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500; }
+  .latest-posts .read-post:hover {
+    text-decoration: underline; }
+
+/* blog */
+/* FONTS */
+/* COLORS */
+/* BLOG */
+.intro-blog {
+  padding: 100px 0px; }
+  .intro-blog h1 {
+    font-size: 48px; }
+
+.blog-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0px; }
+
+/* posts */
+/* FONTS */
+/* COLORS */
+/* POSTS */
+.post-intro {
+  margin: 80px 0px; }
+  .post-intro .category-post-title {
+    color: #565656;
+    font-size: 16px; }
+  .post-intro .post-title {
+    font-size: 48px;
+    padding-top: 30px; }
+  .post-intro .list-inline {
+    padding-top: 30px;
+    color: #565656; }
+
+.post-body {
+  margin: 50px 0px; }
+  .post-body p {
+    margin: 50px 0px; }
+  .post-body blockquote {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: justify; }
+  .post-body .tag-link {
+    color: #565656;
+    text-decoration: none; }
+    .post-body .tag-link:hover {
+      text-decoration: underline; }
+
+/* portfolio */
+/* FONTS */
+/* COLORS */
+/* PORTFOLIO */
+.intro-portfolio {
+  padding: 100px 0px; }
+  .intro-portfolio h1 {
+    font-size: 48px; }
+  .intro-portfolio .intro-p {
+    font-size: 20px; }
+
+.work-post {
+  margin-top: 120px; }
+
+button {
+  color: #ffF;
+  padding: 9px 32px;
+  background-color: #565656;
+  border: none; }
+  button a {
+    text-decoration: none;
+    color: #ffF;
+    font-size: 1rem; }
+    button a:hover {
+      color: #ffF;
+      text-decoration: underline; }
+
+/* WORK DETAILS */
+.intro-work-details {
+  padding: 100px 0px; }
+  .intro-work-details h1 {
+    font-size: 48px; }
+
+.project-overview {
+  padding: 70px 0px; }
+  .project-overview h3 {
+    padding-bottom: 30px; }
+  .project-overview .project-details .h3-details {
+    font-size: 23px;
+    padding: 0; }
+  .project-overview .project-details .p-details {
+    padding: 0 0 45px 0; }
+  .project-overview .work-details-paragraph {
+    padding-top: 100px; }
+    .project-overview .work-details-paragraph p {
+      padding: 20px 0px 00px 0px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: 400; }
+
+/* about */
+/* FONTS */
+/* COLORS */
+.about {
+  margin-top: 100px; }
+  .about h1 {
+    font-size: 48px; }
+  .about p {
+    color: #565656;
+    font-family: "Lato", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 35px; }
+  .about button {
+    margin-top: 30px; }
+
+/*# sourceMappingURL=global.css.map */

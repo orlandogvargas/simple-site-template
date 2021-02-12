@@ -1,0 +1,23 @@
+@import "variables";
+
+.menu{
+  padding: 25px 0px;
+  font-family: $paragraph;
+
+  .logo-site{
+    font: {
+      family: $titles;
+      size: 18px;
+      weight: 700;
+    }
+    letter-spacing: 10px;
+  }
+
+  .nav-link{
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 40px;
+    letter-spacing: 5px;
+    
+  }
+}
